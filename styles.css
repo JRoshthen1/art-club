@@ -4,6 +4,7 @@
  }
 
 .second-section{
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,11 +19,9 @@
 article{
     max-width: 500px;
     font-family: 'Hachi Maru Pop', cursive;
-    margin: 20px;
+    padding: 30px;
     padding-top: 40px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 20px;
+    padding-bottom: 40px;
     line-height: 32px;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
@@ -50,3 +49,9 @@ h2{
     max-width: 100vw;
 }
 
+
+@media (max-width: 48em){
+    .second-section p{
+        font-size: 15px;
+    }
+}
