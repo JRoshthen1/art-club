@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    max-width: 400px;
+}
+
+.heading{
+    font-family: 'Ubuntu';
+    font-size: 100px;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section img{
+    max-width: 500px;
+    padding-left: 40px;
+
+}
+
+article{
+    max-width: 500px;
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 20px;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 32px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+}
+
