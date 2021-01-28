@@ -3,7 +3,19 @@
     padding: 0;
  }
 
-.second-section{
+ .second-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .second-section img{
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.third-section{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -12,7 +24,7 @@
     align-items: center;
 }
 
-.second-section img{
+.third-section img{
     max-width: 500px;
     min-width: 200px;
 }
@@ -131,7 +143,7 @@ h2{
 
 
 @media (max-width: 48em){
-    .second-section p{
+    .third-section p{
         font-size: 18px;
     }
 
